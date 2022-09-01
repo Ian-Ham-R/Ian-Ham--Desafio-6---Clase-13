@@ -1,0 +1,47 @@
+footer {
+    background-color: #080808;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+    p {
+        width: 90vw;
+        text-align: center;
+        color: rgb(209, 168, 93);
+        font-size: 2em;
+        font-weight: 100;
+        margin-bottom: 10px;
+    }
+
+    form {
+
+        .input-for-fill {
+            width: 25vw;
+        }
+
+        input {
+            padding: 5px;
+            background-color: rgba(141, 124, 94, 0.822);
+            border-radius: 30px;
+            border: 0px solid rgba(255, 255, 255, 0);
+            margin: 0 10px;
+            width: 8vw;
+            font-size: 1.2em;
+            transition: .7s;
+            color: white;
+
+            &::placeholder {
+                color: rgb(37, 37, 37);
+                color: white;
+            }
+
+            &:focus {
+                background-color: rgb(88, 60, 22);
+                transition: 1.5s;
+                color: white;
+            }
+        }
+    }
+}
